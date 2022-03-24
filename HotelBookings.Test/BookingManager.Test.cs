@@ -4,9 +4,9 @@ using System.Globalization;
 using HotelBookings;
 using NUnit.Framework;
 
-namespace HotelBookingsPractice;
+namespace HotelBookings.Test;
 
-public class Tests
+public class BookingManagerTests
 {
     private readonly DateTime middayDate = DateTime.Parse("01 Jan 2020, 12:00", new CultureInfo("en-GB"));
 
